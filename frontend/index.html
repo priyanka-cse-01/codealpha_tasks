@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Store</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/9149/9149134.png">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Store</div>
+    <button class="menu-toggle" onclick="document.querySelector('nav').classList.toggle('active')">&#9776;</button>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="cart.html">Cart</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Shop the Latest Trends</h2>
+    <p>Find your style from our curated selections.</p>
+  </section>
+
+  <!-- Product Grid -->
+  <section id="products"></section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h4>About Store</h4>
+        <p>Bringing fashion and essentials right to your door. Quality, style, and value all in one place.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 Store. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
